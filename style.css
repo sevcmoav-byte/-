@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #faf6f2; /* خلفية باللون البيج الفاتح والهادئ */
+    color: #3e2723;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #5d4037; /* لون بني ترابي دافئ */
+    color: #ffffff;
+    padding: 25px 15px;
+}
+
+nav a {
+    color: #ffe0b2;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+/* تنسيق صور المنتجات عبر CSS */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: #ffffff;
+    border: 2px solid #d7ccc8; /* إطار بيج غامق متناسق */
+    border-radius: 12px;
+    width: 280px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid #8d6e63;
+}
+
+/* تنسيق نموذج الطلب المخصص */
+.custom-order {
+    background-color: #efebe9; /* خلفية نموذج بدرجة بيج دافئة */
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: right;
+}
+
+.custom-order input,
+.custom-order select,
+.custom-order textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px;
+    border: 1px solid #bcaaa4;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.custom-order button {
+    background-color: #6d4c41;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.custom-order button:hover {
+    background-color: #5d4037;
+}
+
+/* تنسيق جدول البيانات بألوان البيج الخاصة */
+.crafts-table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.crafts-table th {
+    background-color: #6d4c41;
+    color: #ffffff;
+    padding: 14px;
+    border: 1px solid #5d4037;
+}
+
+.crafts-table td {
+    padding: 12px;
+    border: 1px solid #d7ccc8;
+}
+
+.crafts-table tr:nth-child(even) {
+    background-color: #f5ebe0; /* صفوف الجدول المتبادلة بلون البيج الهادئ */
+}
+
+.crafts-table tr:hover {
+    background-color: #e6ccb2; /* تأثير عند مرور الماوس */
+}
+
